@@ -6,19 +6,19 @@ class Snitch < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/naieum/Snitch/releases/download/cli-v#{version}/snitch-macos-arm64"
+      url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-macos-arm64"
       sha256 "3ca0e5831058d156c3ade6c389377d10aacd6a42597ab73d505cb3e893f3ed9b"
     else
-      url "https://github.com/naieum/Snitch/releases/download/cli-v#{version}/snitch-macos-x64"
-      sha256 "d922adb360e099a8c7555a9758ecd9f14f30e246c225cd0fb2b2a962874541c9"
+      url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-macos-x64"
+      sha256 "9eda29eb9dfb6736e88648a6293450200a58ba7dc7c389ef80d5c7c9c3af3acc"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/naieum/Snitch/releases/download/cli-v#{version}/snitch-linux-arm64"
+      url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-linux-arm64"
       sha256 "9ea5d595224aacd65e9b9ba19f5c8fa7f8420a473d741658a624bcb82b16d2db"
     else
-      url "https://github.com/naieum/Snitch/releases/download/cli-v#{version}/snitch-linux-x64"
-      sha256 "fea90979c04055567cb7516f165f28f1f2d650ab0af0a173454a5b80b006acc3"
+      url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-linux-x64"
+      sha256 "45f7ace14b7d6e9b2e6503e79046495e6bf3f67f2940b118ee4906c91d301d97"
     end
   end
 
