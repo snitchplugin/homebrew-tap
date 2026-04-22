@@ -1,24 +1,24 @@
 class Snitch < Formula
   desc "Local security scanner powered by your own AI CLI or OpenRouter"
   homepage "https://snitchplugin.com"
-  version "1.1.0"
+  version "1.1.1"
   license "UNLICENSED"
 
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-macos-arm64"
-      sha256 "44d47f34eb0c1507484e6ba84ddfce9263a9f95a17d1bf94df3bd530c706a08b"
+      sha256 "3e06221b139c73fd2db746c662ec5da5b4aadaa4fdf0aba1e0880e64a49f5c6c"
     else
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-macos-x64"
-      sha256 "d0c0cf34b44eb61ad61813c3676de0f2e49e1e12597c995b0266ff8797ef97ee"
+      sha256 "cd0b503c2fc81f219acd59975f34cb39e9d83e271af9148ea20b41effe09c8c9"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-linux-arm64"
-      sha256 "e0ca9600c52fae61c6499e26ba40a163338cf16155d71c6053bea8850ac42d06"
+      sha256 "6396159c14567bbe30063be36242e36585a066c840de16189e1133d8b46576d6"
     else
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-linux-x64"
-      sha256 "8babefaa41800d4fbe5e4f3788c08ad85ccb97888955c6a02e26ce9ff60b5728"
+      sha256 "0d5d6152cf474a916acb6683ccd38c88d8bd6d6507c12547dc7c9692e188ca2c"
     end
   end
 
