@@ -10,7 +10,7 @@ class Snitch < Formula
       sha256 "caddea27a95d12ca0abf85dcc32497df821bc5a52a3dc9ba7114b76a9d0722c5"
     else
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-macos-x64"
-      sha256 "6caf52903ffeb718863803c8ae20b23f7816cdb7755d25d56462301bd2b6187a"
+      sha256 "56119a5ecac6c3ccb4ef5eb1015557774e991f97df8d66e6e1d7c14f8991d34a"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
@@ -18,7 +18,7 @@ class Snitch < Formula
       sha256 "2d77cb44cd8838edbdc0bfbcce5390048fe8f725d48211cedfd50f2284d04d75"
     else
       url "https://github.com/snitchplugin/homebrew-tap/releases/download/cli-v#{version}/snitch-linux-x64"
-      sha256 "6c95cbe706b1203fb6c50c003a11469623d50c9af99e76b0713633b51a2d3720"
+      sha256 "3777882f771915c04321a260ba70a89896b04f2f7853bfac0909f4ce47eaf29a"
     end
   end
 
